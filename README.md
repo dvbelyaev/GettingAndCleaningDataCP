@@ -7,11 +7,11 @@ This is the repo for Getting and Cleaning Data Course Project. It contains next 
 
 Next instruction describes how to get the original data set and use the script "run_analysis.R".
 
-### How to obtain the original data set
+### How to obtain original data set
 
 To get original data set please follow next steps.
 
-1. Download the source date archive from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+1. Download source date archive from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Unpack the downloaded archive to the suitable directory.
 
 After unpacking you will get the working directory (\<DIR\>)
@@ -27,9 +27,9 @@ which must contain next 8 files (among others):
 ./activity_labels.txt - class labels with their activity names  
 ./features.txt - list of all features
 
-### How to build the tidy data set
+### How to build tidy data set
 
-To build the tidy data set please follow next steps.
+To build tidy data set please follow next steps.
 
 1. Download script "run_analysis.R" and plase it into \<DIR\>.
 2. Run RStudio and set the working directory by setwd("\<DIR\>")
