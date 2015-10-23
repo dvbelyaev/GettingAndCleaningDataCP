@@ -1,22 +1,21 @@
 # Getting and Cleaning Data Course Project
 
-This is a repo for Getting and Cleaning Data Course Project. It contains next files:
+This is the repo for Getting and Cleaning Data Course Project. It contains next files:
 
 * CodeBook.md - information about the variables used on the tidy data set.
 * run_analysis.R - script for preparing tidy data set from the original data set.
 
-Next instruction describes how to get original data set and use script "run_analysis.R".
+Next instruction describes how to get the original data set and use the script "run_analysis.R".
 
-### How to obtain original data set
+### How to obtain the original data set
 
 To get original data set please follow next steps.
 
 1. Download the source date archive from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Unpack the downloaded archive to the suitable directory.
-After unpacking you will get a working directory (\<DIR\>)
 
+After unpacking you will get the working directory (\<DIR\>)
 ./UCI HAR Dataset/
-
 which must contain next 8 files (among others):
 
 ./train/subject_train.txt - training list of subjects  
@@ -28,9 +27,9 @@ which must contain next 8 files (among others):
 ./activity_labels.txt - class labels with their activity names  
 ./features.txt - list of all features
 
-### How to build tidy data set
+### How to build the tidy data set
 
-To build tidy data set please follow next steps.
+To build the tidy data set please follow next steps.
 
 1. Download script "run_analysis.R" and plase it into \<DIR\>.
 2. Run RStudio and set the working directory by setwd("\<DIR\>")
@@ -40,7 +39,6 @@ To build tidy data set please follow next steps.
 If the process has successfully completed the file  
 ./tidy_data_set.txt  
 should contain the tidy data set.
-
 
 Thank you.
 
