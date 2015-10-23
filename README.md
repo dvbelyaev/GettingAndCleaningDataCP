@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project
 
-It contains next files:
+This is a repo for Getting and Cleaning Data Course Project. It contains next files:
 
 * CodeBook.md - information about the variables used on the tidy data set.
 * run_analysis.R - script for preparing tidy data set from the original data set.
