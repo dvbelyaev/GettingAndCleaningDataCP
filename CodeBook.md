@@ -9,7 +9,7 @@ The sourse dataset was obtained from
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Files "README.txt" and "features_info.txt" contain descriptions of the sourse data set, 
+Files "README.txt" and "features_info.txt" contain descriptions of the original data set, 
 data tables and variables.
 
 ### Purpose
@@ -28,7 +28,7 @@ Tidy data set consists of one data table "tidy_data_set.txt". It containes next 
 * "Volunteer" - identifies the subject who performed the activity in observation (its range is from 1 to 30).
 * "Activity" - labeles of activities which was performed in observation.
 
-Other variables contain the average of source variables for each activity and each subject (volunteer):
+Other variables contain the average of original variables for each activity and each subject (volunteer):
 
 * tBodyAcc-TOE-XYZ
 * tGravityAcc-TOE-XYZ
@@ -56,7 +56,7 @@ where
 
 ## Transformations
 
-1. Tables "subject_train", "subject_test", "y_train", "y_test", "x_train" and "x_test" from the source data set was merged by rows into tables "subject", "y" and "x" respectively. On this step the only variables containing "mean()" or "std()" in their names (according to table "features.txt" by greping feature names for "mean()" and "std()" substrings) was left in the table "x". After that tables "subject", "y" and "x" was merged into one table by columns.
+1. Tables "subject_train", "subject_test", "y_train", "y_test", "x_train" and "x_test" from the original data set was merged by rows into tables "subject", "y" and "x" respectively. On this step the only variables containing "mean()" or "std()" in their names (according to table "features.txt" by greping feature names for "mean()" and "std()" substrings) was left in the table "x". After that tables "subject", "y" and "x" was merged into one table by columns.
 2. Names of variables in table "x" was resolved according to the list "features.txt".
 3. Labels of activities was resolved according to table "activity_labels".
 4. Final tidy data set was created by grouping dataset by colums this subjects and activities and summarising other variables by useing function mean().
