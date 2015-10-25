@@ -1,3 +1,5 @@
+## This script prepare tidy data set from the original data set
+
 library(dplyr)
 
 ## ================================
