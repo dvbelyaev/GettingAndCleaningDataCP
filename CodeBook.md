@@ -5,7 +5,7 @@ This CodeBook describes whow to build the tidy data set from the original data s
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-The sourse datasetcould be obtained from 
+The sourse dataset could be obtained from 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
