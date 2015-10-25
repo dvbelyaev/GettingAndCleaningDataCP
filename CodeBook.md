@@ -1,11 +1,11 @@
 CodeBook
 ==============
 
-This CodeBook describes: whow to build the tidy data set was build from the original data set described in
+This CodeBook describes whow to build the tidy data set from the original data set described in
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-The sourse dataset was obtained from 
+The sourse datasetcould be obtained from 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -15,9 +15,9 @@ data tables and variables.
 ### Purpose
 
 The purpose is to create the new tidy dataset containing only average values 
-for the mean and standard deviation for all observations from the original data set:
+for the mean and standard deviation of all observations from the original data set:
 
-* the training and the test sets shoulde be merged into one table;
+* the training and the test data sets shoulde be merged into one table;
 * activities should be labeled;
 * variables should have descriptive variable names.
 
@@ -28,7 +28,7 @@ Tidy data set consists of one data table "tidy_data_set.txt". It containes next 
 * "Volunteer" - identifies the subject who performed the activity in observation (its range is from 1 to 30).
 * "Activity" - labeles of activities which was performed in observation.
 
-Other variables contain the average of original variables for each activity and each subject (volunteer):
+Other variables contain the average values of original variables for each activity and each subject (volunteer):
 
 * tBodyAcc-TOE-XYZ
 * tGravityAcc-TOE-XYZ
