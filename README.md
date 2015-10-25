@@ -14,8 +14,8 @@ To get original data set please follow next steps.
 1. Download source date archive from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Unpack the downloaded archive to the suitable directory.
 
-After unpacking you will get the working directory (\<DIR\>)
-./UCI HAR Dataset/
+After unpacking you will get the working directory (\<DIR\>)  
+./UCI HAR Dataset/  
 which must contain next 8 files (among others):
 
 ./train/subject_train.txt - training list of subjects  
