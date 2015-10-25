@@ -57,6 +57,6 @@ where
 ## Transformations
 
 1. Tables "subject_train", "subject_test", "y_train", "y_test", "x_train" and "x_test" from the source data set was merged by rows into tables "subject", "y" and "x" respectively. On this step the only variables containing "mean()" or "std()" in their names (according to table "features.txt" by greping feature names for "mean()" and "std()" substrings) was left in the table "x". After that tables "subject", "y" and "x" was merged into one table by columns.
-2. All variable names was resolved according to table "features.txt".
-3. Activities labels was resolved according to table "activity_labels".
+2. Names of variables in table "x" was resolved according to the list "features.txt".
+3. Labels of activities was resolved according to table "activity_labels".
 4. Final tidy data set was created by grouping dataset by colums this subjects and activities and summarising other variables by useing function mean().
